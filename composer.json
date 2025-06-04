@@ -15,10 +15,13 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+		{ "type": "git", "url":  "git@github.com:gazugafan/BaconQrCode.git" }
+	],
     "require": {
         "php": "^8.2",
       	"ext-gd": "*",
-        "bacon/bacon-qr-code": "^3.0",
+        "bacon/bacon-qr-code": "dev-main",
         "illuminate/support": "^10.0|^11.0|^12.0"
     },
     "require-dev": {
